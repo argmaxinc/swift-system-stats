@@ -1,6 +1,6 @@
 //
-//  DiagnosticsApp.swift
-//  Diagnostics
+//  SystemStatsApp.swift
+//  SystemStats
 //
 //  Created by Zach Nagengast on 11/9/23.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct DiagnosticsApp: App {
+struct SystemStatsApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -25,7 +25,7 @@ struct DiagnosticsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StatisticsView()
         }
         .modelContainer(sharedModelContainer)
     }

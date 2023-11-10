@@ -1,13 +1,13 @@
 //
-//  DiagnosticsUITests.swift
-//  DiagnosticsUITests
+//  SystemStatsUITests.swift
+//  SystemStatsUITests
 //
 //  Created by Zach Nagengast on 11/9/23.
 //
 
 import XCTest
 
-final class DiagnosticsUITests: XCTestCase {
+final class SystemStatsUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

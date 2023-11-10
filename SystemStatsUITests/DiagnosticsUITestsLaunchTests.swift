@@ -1,13 +1,13 @@
 //
-//  DiagnosticsUITestsLaunchTests.swift
-//  DiagnosticsUITests
+//  SystemStatsUITestsLaunchTests.swift
+//  SystemStatsUITests
 //
 //  Created by Zach Nagengast on 11/9/23.
 //
 
 import XCTest
 
-final class DiagnosticsUITestsLaunchTests: XCTestCase {
+final class SystemStatsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

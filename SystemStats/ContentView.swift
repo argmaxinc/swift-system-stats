@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Diagnostics
+//  SystemStats
 //
 //  Created by Zach Nagengast on 11/9/23.
 //
